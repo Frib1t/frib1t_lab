@@ -15,12 +15,16 @@ Este proyecto proporciona un entorno de práctica diseñado para entusiastas de 
 
 ## 📦 Construcción y uso del contenedor
 
-1. Construye la imagen:
+1.Descarga el repositorio en local
+```bash
+git clone 
+```
+2. Construye la imagen:
    ```bash
    sudo docker build -t frib1t .
 
 
-2. Ejecuta el contenedor:
+3. Ejecuta el contenedor:
 
 ```bash
 sudo docker run -dit -p 80:80 -p 22:22 --name frib1t-container frib1t
