@@ -20,9 +20,9 @@ Este proyecto proporciona un entorno de práctica diseñado para entusiastas de 
 git clone https://github.com/Frib1t/frib1t_lab/
 ```
 2. Construye la imagen:
-   ```bash
-   sudo docker build -t frib1t .
-
+```bash
+sudo docker build -t frib1t .
+```
 
 3. Ejecuta el contenedor:
 
