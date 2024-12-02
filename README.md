@@ -42,11 +42,11 @@ sudo docker ps
 - Dirección IP de Docker (docker0): 172.17.0.2 (o similar)
 
 ### **Opción 2**
-Descarga el zip desde enste [enlace](https://drive.google.com/file/d/1w7cCasu7O_3zoW3Gn1u3MLyiUqM01w2z/view?usp=sharing)
+Descarga el zip desde enste [enlace](https://drive.google.com/file/d/1VpeC_AbK45GQ2k_NJapToOW0F38jxtD5/view?usp=sharing)
 
 Ejecuta el .tar con los scripts de Dockerlabs o de [Cyberland](https://github.com/Rannden-SHA/CyberLand-Labs.git)
 
-El md5sum del .tar -> 8dfac9a9b80e074e9a9a6d9b7594e3f2 verifica la integridad con:
+El md5sum del .tar -> 099f53a0b419f736068c35e6cbd2717a verifica la integridad con:
 ```bash
 sudo md5sum frib1t.tar
 ```
