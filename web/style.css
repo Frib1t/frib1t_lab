@@ -1,0 +1,162 @@
+/* General styles for the body */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #2a2a72, #009ffd); /* Gradient background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* Container for the login form */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+/* Box for the login form */
+.login-box {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background for login form */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Heading of the login form */
+h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #f1c40f; /* Yellow color for the title */
+}
+
+/* Subheading under the main title */
+p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #bdc3c7; /* Light gray color */
+}
+
+/* Textbox styles for the input fields */
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: #ecf0f1; /* Light background color */
+    color: #2c3e50; /* Dark text color */
+}
+
+/* Focus effect for the input fields */
+.textbox input:focus {
+    outline: none;
+    border: 2px solid #3498db; /* Blue border when focused */
+}
+
+/* Login button styles */
+.btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: #3498db; /* Blue background */
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Button hover effect */
+.btn:hover {
+    background: #2980b9; /* Darker blue on hover */
+}
+
+/* Error message styling */
+.error-message {
+    background-color: #f44336; /* Red background for errors */
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Panel styles for other pages */
+.panel-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e2a3a;
+    border-radius: 8px;
+}
+
+/* Header for the panel */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #f1c40f;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Content section inside the panel */
+section.content {
+    margin-top: 20px;
+}
+
+/* Styles for the status section (e.g., CPU and memory) */
+.status p {
+    font-size: 18px;
+    color: #ecf0f1;
+}
+
+.status strong {
+    color: #3498db;
+}
+
+/* Media query for responsiveness (adjust the form on smaller screens) */
+@media (max-width: 768px) {
+    .login-box {
+        width: 90%;
+        padding: 30px;
+    }
+    header h1 {
+        font-size: 24px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
