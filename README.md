@@ -43,7 +43,9 @@ sudo docker ps
 
 ### **Opción 2**
 Descarga el zip desde enste [enlace](https://drive.google.com/file/d/1w7cCasu7O_3zoW3Gn1u3MLyiUqM01w2z/view?usp=sharing)
+
 Ejecuta el .tar con los scripts de Dockerlabs o de [Cyberland](https://github.com/Rannden-SHA/CyberLand-Labs.git)
+
 El md5sum del .tar -> 8dfac9a9b80e074e9a9a6d9b7594e3f2 verifica la integridad con:
 ```bash
 sudo md5sum frib1t.tar
