@@ -15,6 +15,8 @@ Este proyecto proporciona un entorno de práctica diseñado para entusiastas de 
 
 ## 📦 Construcción y uso del contenedor
 
+### **Opción 1**
+
 1.Descarga el repositorio en local
 ```bash
 git clone https://github.com/Frib1t/frib1t_lab/
@@ -38,6 +40,11 @@ sudo docker ps
 4. La máquina estará disponible en:
 - http://localhost
 - Dirección IP de Docker (docker0): 172.17.0.2 (o similar)
+
+### **Opción 2**
+Descarga el zip desde enste [enlace](https://drive.google.com/file/d/1w7cCasu7O_3zoW3Gn1u3MLyiUqM01w2z/view?usp=sharing)
+Ejecuta el .tar con los scripts de Dockerlabs o de [Cyberland](https://github.com/Rannden-SHA/CyberLand-Labs.git)
+
 
 ----
 🧹 Limpieza
