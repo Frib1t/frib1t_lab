@@ -6,11 +6,10 @@ Este proyecto proporciona un entorno de práctica diseñado para entusiastas de 
 
 ## 🚀 Características principales
 
-- **Sistema web con fugas de información**: Acceso a credenciales a través de un panel vulnerable.
-- **SSH accesible con credenciales expuestas**.
-- **Escalada de privilegios utilizando un binario SUID mal configurado (`tac`)**.
-- **Credenciales de ejemplo y pistas escondidas** para facilitar la progresión.
-- **Salida personalizada** al completar la máquina.
+- **Sistema web con fugas de información**: Acceso un panel vulnerable.
+- **SSH accesible**.
+- **Escalada de privilegios**.
+- **Flag** al completar la máquina.
 
 ---
 
