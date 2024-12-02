@@ -51,6 +51,8 @@ RUN echo "¿No quieres llegar más alto?" > /home/frib1t/Nota.txt && chmod 600 /
 RUN echo -e "\n\nFelicidades ahora eres root\n\nSi te ha gustado, sígueme en LinkedIn: https://www.linkedin.com/in/ramonfrizat/\nGitHub: https://github.com/Frib1t\nYouTube: https://www.youtube.com/@frib1t" > /root/flag.txt && chmod 600 /root/flag.txt
 RUN chown frib1t:frib1t /home/frib1t/Nota.txt
 
+RUN echo -e "\n\nFelicidades has logrado ganar acceso\n\nYa tienes la primera flag" > /home/alice/flag.txt && chmod 600 /home/alice/flag.txt
+
 COPY start.sh /start.sh
 RUN chmod +x /start.sh
 
