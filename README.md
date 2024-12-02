@@ -17,7 +17,7 @@ Este proyecto proporciona un entorno de práctica diseñado para entusiastas de 
 
 1.Descarga el repositorio en local
 ```bash
-git clone 
+git clone https://github.com/Frib1t/frib1t_lab/
 ```
 2. Construye la imagen:
    ```bash
